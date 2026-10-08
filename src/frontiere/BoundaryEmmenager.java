@@ -30,10 +30,9 @@ public class BoundaryEmmenager {
 				case 2:
 					System.out.println(
 							"Bienvenue villageois " + nomVisiteur);
-					int choixForce = 0;
 					StringBuilder questionForce = new StringBuilder();
 					questionForce.append("Quelle est votre force ?\n");
-					choixForce = Clavier.entrerEntier(question.toString());
+					int choixForce = Clavier.entrerEntier(question.toString());
 					controlEmmenager.ajouterGaulois(nomVisiteur, choixForce);
 					break;
 

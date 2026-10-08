@@ -60,7 +60,7 @@ public class Scenario {
 				boundaryAfficherVillageois, boundaryEmmenager,
 				boundaryChercherEtal, boundaryLibererEtal,
 				boundaryAfficherMarche, boundaryAcheterProduit);
-		boundaryLeVillage.menu();
+		boundaryLeVillage.menu(); 
 	}
 
 }
